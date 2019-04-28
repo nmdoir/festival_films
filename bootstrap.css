@@ -61,7 +61,11 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff;
+    /* Adding navbar css */
+    min-height: 75rem;
+    padding-top: 4.5rem;
 }
+
 
 [tabindex="-1"]:focus {
     outline: 0 !important;
