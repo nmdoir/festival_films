@@ -384,6 +384,7 @@ h2, .h2 {
     text-transform: uppercase;
     text-align: center;
     margin-top: 4rem ;
+    margin-bottom: 2rem;
 }
 
 h3, .h3 {
@@ -2436,14 +2437,15 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #273c75;
+    border-color: #273c75;
+    justify-content: center;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #D0AE64;
+    border-color: #D0AE64;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -4600,7 +4602,9 @@ input[type="button"].btn-block {
 }
 
 .card-title {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.25rem;
+    text-align: center;
+    font-family: 'Willow';
 }
 
 .card-subtitle {
@@ -10079,6 +10083,10 @@ a.text-dark:hover, a.text-dark:focus {
     transform: translate(-50%, -50%);
 }
 
-
+/* Date and title for movies */
+.movie-details {
+    background-color: #c69500;
+    text-align: center;
+}
 
 
