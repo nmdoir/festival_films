@@ -378,7 +378,9 @@ h1, .h1 {
 }
 
 h2, .h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-family: 'Willow';
+    text-align:center;
 }
 
 h3, .h3 {
@@ -587,9 +589,12 @@ pre code {
 .container-fluid {
     width: 100%;
     padding-right: 15px;
-    padding-left: 15px;
+    padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .row {
@@ -10056,12 +10061,18 @@ a.text-dark:hover, a.text-dark:focus {
     font-style: normal;
 }
 
+/* Change font on nav links */
 .nav-link {
     font-family: 'Willow';
     font-size: large;
 }
 
-body {
-    background-image: url("cine-pleinair.jpg");
-    background-repeat: no-repeat;
+/* Centered text on image */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+
