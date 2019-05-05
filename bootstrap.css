@@ -10060,3 +10060,7 @@ a.text-dark:hover, a.text-dark:focus {
     font-size: large;
 }
 
+body {
+    background-image: url("cine-pleinair.jpg");
+    background-repeat: no-repeat;
+}
