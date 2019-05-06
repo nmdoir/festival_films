@@ -490,8 +490,12 @@ mark,
 }
 
 .img-fluid {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
+    /* For the image to be centered */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .img-thumbnail {
