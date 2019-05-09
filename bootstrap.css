@@ -10098,8 +10098,9 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /* Date and title for movies */
-.card-date {
+.card-p {
     margin-bottom: 0.25rem;
     text-align: center;
     text-transform: uppercase;
+    font-size: 1.5rem;
 }
