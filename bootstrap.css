@@ -64,6 +64,8 @@ body {
     /* Adding navbar css */
     min-height: 75rem;
     padding-top: 4.5rem;
+    /* No vertical scroll */
+    overflow-x: hidden;
 }
 
 
