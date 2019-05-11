@@ -4592,6 +4592,7 @@ input[type="button"].btn-block {
     border-radius: 0.25rem;
     margin: auto;
     width: 90%;
+    margin-bottom: 15px;
 }
 
 .card > hr {
@@ -4618,8 +4619,10 @@ input[type="button"].btn-block {
 .card-title {
     margin-bottom: 0.25rem;
     text-align: center;
+    /* Font properties */
     font-family: 'Willow';
     text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
 .card-subtitle {
@@ -10099,10 +10102,10 @@ a.text-dark:hover, a.text-dark:focus {
     transform: translate(-50%, -50%);
 }
 
-/* Date and title for movies */
-.card-p {
-    margin-bottom: 0.25rem;
+/* Date for movies */
+.card-date {
+    margin-bottom: 0.15rem;
     text-align: center;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
