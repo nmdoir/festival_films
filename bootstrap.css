@@ -10109,3 +10109,33 @@ a.text-dark:hover, a.text-dark:focus {
     text-transform: uppercase;
     font-size: 1.25rem;
 }
+
+/* Footer */
+.sticky-bottom {
+    position: static;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+footer {
+    margin-top: 3rem;
+}
+
+.footer-address {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    text-align: left;
+    padding-left: 5rem;
+    font-size: 0.75rem;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.footer-mentions {
+    text-align: right;
+    margin-right: 1.5rem;
+}
