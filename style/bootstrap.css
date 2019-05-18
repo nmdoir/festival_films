@@ -229,7 +229,7 @@ th {
 
 label {
     display: inline-block;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 button {
@@ -2029,6 +2029,8 @@ textarea.form-control {
 .form-text {
     display: block;
     margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 .form-row {
