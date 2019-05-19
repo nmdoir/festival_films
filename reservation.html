@@ -38,24 +38,24 @@
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="nom">Nom</label>
-            <input type="text" class="form-control" id="nom" placeholder="Entrez votre nom">
+            <input type="text" class="form-control" id="nom" placeholder="Entrez votre nom" required>
         </div>
         <div class="form-group col-md-6">
             <label for="prenom">Prénom</label>
-            <input type="text" class="form-control" id="prenom" placeholder="Entrez votre prénom">
+            <input type="text" class="form-control" id="prenom" placeholder="Entrez votre prénom" required>
         </div>
     </div>
     <div class="form-group">
         <label for="adresseemail">Email</label>
-        <input type="email" class="form-control" id="adresseemail" placeholder="Entrez votre email">
-        <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais vos informations avec des tiers.</small>
+        <input type="email" class="form-control" id="adresseemail" placeholder="Entrez votre email" required>
+        <small id="emailHelp" class="form-text text-muted">Nous utiliserons cette information <strong>uniquement</strong> pour vous contacter en cas d'annulation de la séance.</small>
     </div>
 
-    <form class="form-inline">
+    <div class="form-group">
         <label class="my-1 mr-2" for="choixfilm">Choisissez la séance que vous souhaitez réserver :</label>
         <small id="choixfilmHelp" class="form-text text-muted">Vous ne pouvez réserver qu'une seule séance à la fois. Veuillez effectuer plusieurs réservations si vous souhaitez réserver plusiuers séances.</small>
-        <select class="custom-select my-1 mr-sm-2" id="choixfilm">
-            <option selected>Choisir...</option>
+        <select class="custom-select my-1 mr-sm-2" id="choixfilm" required>
+            <option selected disabled>Choisir...</option>
             <optgroup label="5 août">
                 <option value="boyerased">18h - Boy erased</option>
                 <option value="aproposdelly">20h - A propos d'Elly...</option>
@@ -77,12 +77,12 @@
                 <option value="alpha">22h - Alpha, The right to kill</option>
             </optgroup>
         </select>
-    </form>
+    </div>
 
-    <form class="form-inline">
-        <label class="my-1 mr-2" for="nombre-places">Choisissez la séance que vous souhaitez réserver :</label>
-        <input class="form-control" type="number" value="1" id="nombre-places">
-    </form>
+    <div class="form-inline">
+        <label class="my-1 mr-2" for="nombre-places">Combien de places souhaitez-vous réserver (vous y compris) ?</label>
+        <input class="form-control" type="number" value="1" id="nombre-places" min="1" max="20" required>
+    </div>
 
     <br/>
     <button type="submit" class="btn btn-primary">Réserver</button>
