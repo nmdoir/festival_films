@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-    font-size: 3.5rem;
+    font-size: 5vw;
     font-family: 'Willow';
     text-transform: uppercase;
     text-align:center;
@@ -2030,7 +2030,6 @@ textarea.form-control {
     display: block;
     margin-top: 0.25rem;
     margin-bottom: 0.5rem;
-    font-weight: bold;
 }
 
 .form-row {
@@ -10100,8 +10099,8 @@ a.text-dark:hover, a.text-dark:focus {
 /* Centered text on image */
 .centered {
     position: absolute;
-    top: 50%;
     left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
 }
 
