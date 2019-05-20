@@ -10138,3 +10138,8 @@ form {
     margin-left: 4rem;
     margin-right: 4rem;
 }
+
+.no-margin {
+    margin-top: 0;
+    margin-bottom: 0;
+}
