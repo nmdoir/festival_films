@@ -373,8 +373,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-    font-size: 5vw;
-    font-family: 'Willow';
+    font-size: 3.5rem;
     text-transform: uppercase;
     text-align:center;
     color: white;
@@ -382,7 +381,6 @@ h1, .h1 {
 
 h2, .h2 {
     font-size: 3rem;
-    font-family: 'Willow';
     text-transform: uppercase;
     text-align: center;
     margin-top: 4rem ;
@@ -390,11 +388,19 @@ h2, .h2 {
 }
 
 h3, .h3 {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2.5rem ;
+    margin-bottom: 1rem;
 }
 
 h4, .h4 {
     font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2rem ;
+    margin-bottom: 1rem;
 }
 
 h5, .h5 {
@@ -4621,7 +4627,6 @@ input[type="button"].btn-block {
     margin-bottom: 0.25rem;
     text-align: center;
     /* Font properties */
-    font-family: 'Willow';
     text-transform: uppercase;
     font-size: 1.5rem;
 }
@@ -9797,7 +9802,7 @@ button.bg-dark:focus {
 
 .text-center {
     text-align: center !important;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 @media (min-width: 576px) {
@@ -10079,20 +10084,9 @@ a.text-dark:hover, a.text-dark:focus {
 
 
 
-@font-face {
-    font-family: 'Willow';
-    src:url('fonts/Willow.ttf.woff') format('woff'),
-    url('fonts/Willow.ttf.svg#Willow') format('svg'),
-    url('fonts/Willow.ttf.eot'),
-    url('fonts/Willow.ttf.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* Change font on nav links */
 .nav-link {
-    font-family: 'Willow';
-    font-size: large;
+    font-size: medium;
     text-transform: uppercase;
 }
 
@@ -10143,4 +10137,9 @@ form {
     margin-bottom: 3rem;
     margin-left: 4rem;
     margin-right: 4rem;
+}
+
+.no-margin {
+    margin-top: 0;
+    margin-bottom: 0;
 }
