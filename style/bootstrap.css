@@ -62,7 +62,7 @@ body {
     text-align: left;
     background-color: #fff;
     /* Adding navbar css */
-    min-height: 75rem;
+    min-height: 70rem;
     padding-top: 4.5rem;
     /* No vertical scroll */
     overflow-x: hidden;
