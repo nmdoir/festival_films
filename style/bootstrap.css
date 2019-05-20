@@ -10124,22 +10124,17 @@ footer {
     margin-top: 3rem;
 }
 
-.footer-address {
+.footer-text {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
-    text-align: left;
-    padding-left: 5rem;
-    font-size: 0.75rem;
-}
-
-.footer-copyright {
     text-align: center;
     font-size: 0.75rem;
 }
 
 .footer-mentions {
-    text-align: right;
-    margin-right: 1.5rem;
+    text-align: center;
+    padding-right: 0;
+    margin-right:0;
 }
 
 form {
