@@ -4600,6 +4600,7 @@ input[type="button"].btn-block {
     margin: auto;
     width: 90%;
     margin-bottom: 15px;
+    margin-top:10px
 }
 
 .card > hr {
