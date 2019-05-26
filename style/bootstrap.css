@@ -10144,3 +10144,9 @@ form {
     margin-top: 0;
     margin-bottom: 0;
 }
+/* Font-awesome */
+.fas {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
