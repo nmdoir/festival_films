@@ -10089,6 +10089,7 @@ a.text-dark:hover, a.text-dark:focus {
 .nav-link {
     font-size: medium;
     text-transform: uppercase;
+    padding-bottom: 0;
 }
 
 /* Centered text on image */
