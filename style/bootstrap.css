@@ -380,7 +380,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
     margin-top: 4rem ;
@@ -10133,6 +10133,13 @@ footer {
     margin-right:0;
 }
 
+.footer-contact {
+    text-align: center;
+    padding-right: 0;
+    margin-right:0;
+    margin-bottom: 1.25rem;
+}
+
 form {
     display: block;
     margin-top: 3rem;
@@ -10151,4 +10158,16 @@ form {
     font-size: 2rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+}
+
+/* Taille du titre */
+@media all and (max-width: 690px)
+{
+    h2, .h2 {
+        font-size: 2.4rem;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 4rem ;
+        margin-bottom: 2rem;
+    }
 }
